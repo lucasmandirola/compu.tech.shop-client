@@ -1,0 +1,48 @@
+.emptyFavorite {
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    transition: .5s;
+    margin-left: 130px;
+    opacity: .9;
+}
+
+
+.emptyFavorite:hover {
+    filter: brightness(1.5);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.emptyFavorite img {
+    height: 25px;
+    width: auto;
+    margin: auto;
+    display: flex;
+}
+.filledFavorite {
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    transition: .5s;
+    margin-left: 130px;
+    opacity: .9;
+}
+
+
+.filledFavorite:hover {
+    filter: brightness(2);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.filledFavorite img {
+    height: 25px;
+    width: auto;
+    margin: auto;
+    display: flex;
+}

@@ -1,0 +1,27 @@
+.productNotFound {
+    margin: auto;
+    width: 500px;
+    text-align: left;
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    display: flex;
+}
+
+.productNotFoundContainer {
+    text-align: center;
+    color: black;
+    height: 135px;
+    justify-content: center;
+}
+
+.productNotFoundText {
+    text-align: left;
+    margin: 0 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .productNotFound {
+        width: 100%;
+    }
+}
